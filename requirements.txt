@@ -1,0 +1,9 @@
+django
+flask
+requests
+beautifulsoup4
+pandas
+openai
+reportlab
+matplotlib
+serpapi

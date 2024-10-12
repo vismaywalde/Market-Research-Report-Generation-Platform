@@ -1,0 +1,21 @@
+<!-- marketresearch/templates/report.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Report</title>
+</head>
+<body>
+    <h1>Market Research Report</h1>
+    <div>
+        <h2>Market Data from Various Sources:</h2>
+        <ul>
+            {% for data in market_data %}
+                <li>{{ data }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

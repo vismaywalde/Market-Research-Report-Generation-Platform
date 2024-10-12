@@ -1,0 +1,18 @@
+<!-- marketresearch/templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Report Generator</title>
+</head>
+<body>
+    <h1>Generate Your Market Report</h1>
+    <form action="/generate_report" method="post">
+        <label for="query">Enter search query for market data:</label>
+        <input type="text" id="query" name="query" placeholder="e.g., Healthcare industry analysis in India" required>
+        <button type="submit">Generate Report</button>
+    </form>
+</body>
+</html>
